@@ -1,0 +1,28 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+img {
+  height: 200px;
+  width: 150px;;
+}
+
+h1 {
+  margin-left: 1rem;
+}
+
+.allFilms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filmCard {
+  width: 8rem;
+  margin: 1rem
+}
